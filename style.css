@@ -1,0 +1,80 @@
+body{
+  text-align: center;
+  background-color: rgb(38, 99, 152);
+}
+
+.container{
+  font-family: "Arvo", cursive;
+}
+
+.drum{
+  outline: none;
+  font-family: "Arvo", cursive;
+  font-size: 3.5rem;
+  width: 120px;
+  height: 120px;
+  background-color: white;
+  border-color: rgb(133, 169, 200);
+  border-width: 8px;
+  color: rgb(174, 1, 1);
+  text-shadow: 3px 0 #DBEDF3;
+  border-radius: 15px;
+  display: inline-block;
+  margin: 10px;
+}
+
+h1{
+  font-size: 4rem;
+  color: white;
+  font-weight: bold;
+  margin-bottom: 13%;
+  text-shadow: 2px 2px rgb(174, 1, 1) ;
+}
+
+footer{
+  margin-top: 9%;
+  color: white;
+  font-size: 8px;
+  letter-spacing: 10px;
+}
+
+.w{
+  background-image: url(images/tom1.png);
+}
+
+.a{
+  background-image: url(images/tom2.png);
+}
+
+.s{
+  background-image: url(images/tom3.png);
+}
+
+.d{
+  background-image: url(images/tom4.png);
+}
+
+.j{
+  background-image: url(images/snare.png);
+}
+
+.k{
+  background-image: url(images/crash.png);
+}
+
+.l{
+  background-image: url(images/kick.png);
+}
+
+.set{
+  margin: 10% auto;
+}
+
+.pressed{
+  box-shadow: 0 3px 4px 0 #DBEDF3;
+  opacity: 0.5;
+}
+
+.red{
+  color: red;
+}
